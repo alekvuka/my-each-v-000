@@ -2,7 +2,7 @@ def my_each(collection) # put argument(s) here
   i = 0
   while i < collection.size
     yield i
-    num += 1
+    i += 1
   end
 
   collection
