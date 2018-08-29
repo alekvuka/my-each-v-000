@@ -5,6 +5,7 @@ def my_each(collection) # put argument(s) here
     num += 1
   end
 
+  collection
   # code here
 end
 
